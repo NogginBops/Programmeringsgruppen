@@ -11,41 +11,15 @@ namespace Hello
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Addera två tal:");
+            // Här börjar programmet. All kod som körs börjar i Main metoden.
 
-            Console.Write("Tal1: ");
-            
-            double tal1 = double.Parse(Console.ReadLine());
+            // Skriver ut Hello World! i konsollen.
+            Console.WriteLine("Hello world!");
 
-            Console.Write("+/-: ");
-
-            string tecken = Console.ReadLine();
-            
-            Console.Write("Tal2: ");
-
-            double tal2 = double.Parse(Console.ReadLine());
-
-            double resultat;
-
-            if (tecken == "+")
-            {
-                resultat = tal1 + tal2;
-            }
-            else if (tecken == "-")
-            {
-                resultat = tal1 - tal2;
-            }
-            else
-            {
-                Console.WriteLine("Error: " + tecken + " är inte ett giltit räknesätt!");
-                Console.ReadKey();
-                
-                return;
-            }
-            
-            Console.WriteLine(resultat);
-
+            // Väntar på att användaren gör en knapptryckning. Så att programmet inte ska stängas så fort vi öppnat det.
             Console.ReadKey();
+
+            // Här slutar programmet.
         }
     }
 }
