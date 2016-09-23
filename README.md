@@ -1,9 +1,9 @@
 # Programmeringsgruppen
 
-Detta är den officiella GitHub sidan för Grupp 2 av programmerings gruppen. (Du får absolut fortfarande va här om man är i Grupp 1 eller 3 :smile:)
+Detta är den officiella GitHub sidan för programmeringsgruppen! :smile:
 
 Här kommer jag lägga upp exempel och de olika sakerna jag går igenom på mötena.
-Det kan vara smar att sätta sig ner och själv försöka sig på en del av exemplen.
+Det kan vara smart att sätta sig ner och själv försöka sig på utmaningarna i slutet av vissa exempel.
 
 ##Hur hittar jag filerna?
 
