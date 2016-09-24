@@ -33,6 +33,6 @@ När du har öppnat 'solutionen' i din IDE (Integrated Development Enviroment, a
 
 ![solution](screenshots/solution.PNG?raw=true "Dubbelklicka på .cs filen för att öppna koden")
 
-Nu är det bara att börja leka! Om 'solutionen' inehåller mer än ett projekt kommer en liten rullgardinsmeny dyka upp brevid kör knappe n där man välja vilket projekt som ska köras.
+Nu är det bara att börja leka! Om 'solutionen' inehåller mer än ett projekt kommer en liten rullgardinsmeny dyka upp brevid kör knappen där man välja vilket projekt som ska köras.
 
 ![select](screenshots/select.PNG?raw=true "Här kan du välja vilket projekt som ska köras")
