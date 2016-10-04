@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello", "Hello\Hello.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniCalc", "MiniCalc\MiniCalc.csproj", "{C334D1BD-086B-4CCE-BFC2-5873DA079EA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Primtal", "PrimtalFaktorer\Primtal.csproj", "{946C9896-B19F-47CF-B396-CAEA366A81F9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Primtal", "Primtal\Primtal.csproj", "{946C9896-B19F-47CF-B396-CAEA366A81F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
