@@ -10,17 +10,15 @@ namespace Primtal
     {
         static void Main(string[] args)
         {
-            Console.Write("Max value? ");
+            int maxValue = int.Parse(Console.ReadLine());
 
-            int maxPrime = int.Parse(Console.ReadLine());
-            
-            for (int prime = 2; prime <= maxPrime; prime++)
+            for (int tal = 2; tal <= maxValue; tal++)
             {
                 bool isPrime = true;
-                
-                for (int i = 2; i < prime; i++)
+
+                for (int i = 2; i < tal; i++)
                 {
-                    if (prime % i == 0)
+                    if (tal % i == 0)
                     {
                         isPrime = false;
                     }
@@ -28,7 +26,7 @@ namespace Primtal
 
                 if (isPrime)
                 {
-                    Console.WriteLine(prime);
+                    Console.WriteLine(tal);
                 }
             }
             

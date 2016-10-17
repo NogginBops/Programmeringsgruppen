@@ -30,7 +30,7 @@ namespace MiniCalc
              */
             double tal1 = double.Parse(Console.ReadLine());
 
-            Console.Write("+/-: ");
+            Console.Write("+/-/^: ");
 
             // Här läser vi in en rad. Detta kan leda till att användaren kan skriva in mer än ett tecken.
             string tecken = Console.ReadLine(); 
@@ -42,44 +42,7 @@ namespace MiniCalc
 
             // Definera en variabel 'resultat' utan värde. OBS! 'resultat' måste bli tilldelat ett värde innan den kan användas.
             double resultat;
-
-            /* 
-             * "tecken == "+" " - Här !jämför! vi värdet av variablen 'tecken' mot värdet "+"
-             * OBS! Anledningen till att vi använder '==' för att jämföra och inte '='
-             * är att '=' är tilldelnings operatorn (variablen på vänster sida tilldelas värdet av höger sida).
-             * '==' är jämförelse operatorn och används för att kolla om två variabel är lika med varandra.
-             *  
-             * När man gör '==' på två variabler kommer man få en variabel av typ bool (boolean).
-             * Alltså skulle man kunna skriva som följande:
-             * 
-             *  bool isEqual = 10 == 40;
-             *  if(isEqual) { ... }
-             * 
-             * Det vi också kan se på exemplet ovan är att en if-sats bara behöver ett värde av typ bool innom sina paranteser.
-             * Alltså (pseudo-kod):
-             * 
-             *  if(bool) {  }
-             * 
-             * Vi anväder oss också av en "else if"-sats i den nedanstående koden.
-             * 
-             * Denna funkar så att man först kollar if-satsen. Om if-satsens input är lika med 'true' så kommer koden innut i if-satsens "block" att köras.
-             * OBS! Ett block är ett segment kod omslutet i { } parenteser.
-             * Alltså:
-             * 
-             *  { 
-             *      //Detta är kod innut i ett block
-             *  }
-             *  
-             * Om den första if-satsen körden så kommer inte koden i följande "else if"-satser eller else-satser att köras.
-             * Men om den första if-satsen inte körs så kommer följande "else-if"-satser att kollas och potentiellt köras.
-             * Detta görs till en av tre saker händer:
-             *  1. En av "else if"-satserna körts.
-             *  2. Det tar slut på else if satser.
-             *  3. Man träffar på en else sats.
-             *  
-             * Om man stöter på en else-sats så kommer den att köras utan att någonting behöver vara 'true'.
-             * På detta sätt kan vi hantera en situation där användaren har skrivit fel tecken. 
-             */
+            
             if (tecken == "+")
             {
                 // Tilldela 'resultat' värdet; Summan av värdena 'tal1' och 'tal2'.
@@ -89,6 +52,15 @@ namespace MiniCalc
             {
                 // Spara differensen mellan 'tal1' och 'tal2'.
                 resultat = tal1 - tal2;
+            }
+            else if (tecken == "^")
+            {
+                resultat = 1;
+
+                for (int i = 0; i < tal2; i++)
+                {
+                    resultat *= tal1;
+                }
             }
             else
             {
