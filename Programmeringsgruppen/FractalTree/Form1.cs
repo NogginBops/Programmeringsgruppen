@@ -24,7 +24,7 @@ namespace FractalTree
 
         private void UpdateFractal()
         {
-            switch ((string)cmbFractal.SelectedValue)
+            switch ((string)cmbFractal.SelectedItem)
             {
                 case "Fractal tree":
                     DrawFractalTree();
