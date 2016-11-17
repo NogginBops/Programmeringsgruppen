@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game of life", "Game of lif
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FractalTree", "FractalTree\FractalTree.csproj", "{06386F74-DCF4-4265-ACB6-343E4EE5866D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestPad", "BestPad\BestPad.csproj", "{3C37AD3D-DF64-4950-BAA2-A89194083A5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{06386F74-DCF4-4265-ACB6-343E4EE5866D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06386F74-DCF4-4265-ACB6-343E4EE5866D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06386F74-DCF4-4265-ACB6-343E4EE5866D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C37AD3D-DF64-4950-BAA2-A89194083A5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C37AD3D-DF64-4950-BAA2-A89194083A5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C37AD3D-DF64-4950-BAA2-A89194083A5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C37AD3D-DF64-4950-BAA2-A89194083A5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
