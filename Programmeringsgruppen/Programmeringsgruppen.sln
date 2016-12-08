@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Best Paint", "Best Paint\Be
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klasskamp", "Klasskamp\Klasskamp.csproj", "{7C4A945E-028B-420A-8BB1-56F4AC979655}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestList", "BestList\BestList.csproj", "{5A6C0193-1158-4C0A-B0BA-8D0753A71F47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{7C4A945E-028B-420A-8BB1-56F4AC979655}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C4A945E-028B-420A-8BB1-56F4AC979655}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C4A945E-028B-420A-8BB1-56F4AC979655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A6C0193-1158-4C0A-B0BA-8D0753A71F47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A6C0193-1158-4C0A-B0BA-8D0753A71F47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A6C0193-1158-4C0A-B0BA-8D0753A71F47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A6C0193-1158-4C0A-B0BA-8D0753A71F47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
