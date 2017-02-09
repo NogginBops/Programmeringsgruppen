@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestList", "BestList\BestLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestCrypt", "BestCrypt\BestCrypt.csproj", "{523AAFB4-B1D3-4437-8ED9-8B424515C228}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestPong", "BestPong\BestPong.csproj", "{FF598568-E4E8-4C47-9165-E15490EDF505}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestInvaders", "BestInvaders\BestInvaders.csproj", "{C5EC5509-5AF2-4E64-A81D-19852314DD2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{523AAFB4-B1D3-4437-8ED9-8B424515C228}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{523AAFB4-B1D3-4437-8ED9-8B424515C228}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{523AAFB4-B1D3-4437-8ED9-8B424515C228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF598568-E4E8-4C47-9165-E15490EDF505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF598568-E4E8-4C47-9165-E15490EDF505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF598568-E4E8-4C47-9165-E15490EDF505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF598568-E4E8-4C47-9165-E15490EDF505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5EC5509-5AF2-4E64-A81D-19852314DD2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5EC5509-5AF2-4E64-A81D-19852314DD2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5EC5509-5AF2-4E64-A81D-19852314DD2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5EC5509-5AF2-4E64-A81D-19852314DD2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
