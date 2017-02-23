@@ -1,6 +1,6 @@
 ﻿namespace BestInvaders
 {
-    partial class Form1
+    partial class Game
     {
         /// <summary>
         /// Required designer variable.
@@ -36,13 +36,13 @@
             // UpdateTimer
             // 
             this.UpdateTimer.Enabled = true;
-            this.UpdateTimer.Interval = 16;
+            this.UpdateTimer.Interval = 10;
             this.UpdateTimer.Tick += new System.EventHandler(this.UpdateTimer_Tick);
             // 
             // RedrawTimer
             // 
             this.RedrawTimer.Enabled = true;
-            this.RedrawTimer.Interval = 16;
+            this.RedrawTimer.Interval = 10;
             this.RedrawTimer.Tick += new System.EventHandler(this.RedrawTimer_Tick);
             // 
             // Form1
@@ -51,11 +51,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(692, 354);
+            this.DoubleBuffered = true;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(Input.KeyDown);
-            this.KeyUp += new System.Windows.Forms.KeyEventHandler(Input.KeyUp);
             this.ResumeLayout(false);
 
         }

@@ -23,7 +23,13 @@ namespace BestInvaders
 
         public static bool KeyPressed(Keys key)
         {
-            return pressedKeys[key];
+            bool pressed;
+            if (pressedKeys.TryGetValue(key, out pressed))
+            {
+                return pressed;
+            }
+
+            return false;
         }
     }
 }
