@@ -17,9 +17,13 @@ namespace BestInvaders
 
         Brush brush = Brushes.White;
 
-        public Player(RectangleF rect) : base(rect)
+        Image image;
+
+        public Player(RectangleF rect, Image image) : base(rect)
         {
             ScreenBoundsCollision = true;
+
+            this.image = image;
         }
 
         public override void Update(float deltaTime)
@@ -56,7 +60,7 @@ namespace BestInvaders
             {
                 if (timer > coolDown)
                 {
-                    Shot shot = new Shot(new RectangleF(rect.X, rect.Y, 5, 5), 0, -100, 5);
+                    Shot shot = new Shot(new RectangleF(rect.X + 2.5f, rect.Y - 5, 5, 5), 0, -100, 5);
 
                     timer = 0;
                 }
@@ -67,7 +71,7 @@ namespace BestInvaders
 
         public override void Draw(Graphics g)
         {
-            g.FillRectangle(brush, rect);
+            g.DrawImage(image, rect);
         }
     }
 }

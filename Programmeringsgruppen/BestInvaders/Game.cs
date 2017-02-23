@@ -21,8 +21,8 @@ namespace BestInvaders
             InitializeComponent();
 
             ScreenBounds = ClientRectangle;
-
-            new Player(new RectangleF((ScreenBounds.Width / 2) - 5, ScreenBounds.Height * 0.9f, 10, 10));
+            
+            new Player(new RectangleF((ScreenBounds.Width / 2) - 5, ScreenBounds.Height * 0.9f, 10, 10), Textures.Ship);
 
             float insetTop = 10, insetBottom = ScreenBounds.Height * 0.5f;
             float insetLeft = 10, insetRight = 10;
