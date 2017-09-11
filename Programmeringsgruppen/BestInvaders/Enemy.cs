@@ -10,9 +10,15 @@ namespace BestInvaders
     class Enemy : Collidable
     {
         Brush brush = Brushes.Crimson;
-
+        
         public Enemy(RectangleF rect) : base(rect)
         {
+        }
+
+        public override void Update(float deltaTime)
+        {
+            base.Update(deltaTime);
+            
         }
 
         public override void Draw(Graphics g)
