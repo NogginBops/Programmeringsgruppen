@@ -1,0 +1,16 @@
+﻿
+Samtliga program är skrivna som Console App (.NET Framework) projekt (konsollapplikationer).
+
+Informationen i Data_pass2.txt innehåller tabeller över datatyper och operatorer i C#.
+
+EqualToX - Frågar användaren om indata för att sedan svara beroende på given indatan.
+Fokus:  if-, else if-, else-satsen
+
+SimpleCalculator - Tar in två tal och en operator, beräknar och presenterar resultatet för användaren.
+Fokus:  float.Parse
+	    ToString
+		Console.Write
+
+SimpleCrash-SafeCalculator - Fyller samma funktion som SimpleCalculator, men är kraschsäker
+Fokus:  try, catch
+		goto
