@@ -1,0 +1,13 @@
+
+Samtliga program är skrivna som Console App (.NET Framework) projekt (konsollapplikationer).
+
+SumMedianAverage - Tar in ett bestämt antal tal och räknar ut dess summa median och medelvärde.
+Fokus:  arrays
+		metoder
+		static
+
+BaseTenToHexadecimal - Tar in ett tal i bas tio och skriver ut det som hexadecimalt (bas 16).
+Fokus:  variabeldeklaration
+		operator: !
+		mer om string
+	    do-while
