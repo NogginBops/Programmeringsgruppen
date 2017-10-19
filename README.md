@@ -5,7 +5,7 @@ Detta är den officiella GitHub sidan för programmeringsgruppen! :smile:
 Här kommer jag lägga upp exempel och de olika sakerna jag går igenom på mötena.
 Det kan vara smart att sätta sig ner och själv försöka sig på utmaningarna i slutet av vissa exempel.
 
-##Hur hittar jag filerna?
+## Hur hittar jag filerna?
 
 Det finns några olika sätt att hitta filerna med kod.
 
